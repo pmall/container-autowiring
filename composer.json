@@ -1,0 +1,39 @@
+{
+    "name": "quanta/container-autowiring",
+    "type": "library",
+    "description": "Library for creating quanta Psr-11 container factory maps using autowiring",
+    "keywords": [
+        "psr-11",
+        "container",
+        "dependency-injection",
+        "autowiring"
+    ],
+    "license": "MIT",
+    "homepage": "https://github.com/quanta/container-autowiring",
+    "support": {
+        "issues": "https://github.com/quanta/container-autowiring/issues",
+        "source": "https://github.com/quanta/container-autowiring"
+    },
+    "authors": [
+        {
+            "name": "pmall",
+            "email": "pierre.mallinjoud@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0",
+        "psr/container": "^1.0",
+        "quanta/exceptions": "^0.3.0",
+        "quanta/class-names": "^0.2.0",
+        "quanta/container-factories": "^0.4.0"
+    },
+    "require-dev": {
+        "kahlan/kahlan": "^4.0",
+        "eloquent/phony-kahlan": "^2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Quanta\\Container\\": "src"
+        }
+    }
+}
